@@ -1,0 +1,282 @@
+body {
+    margin: 0px;
+    background-image:url("./images/pista.jpg");
+    background-color: #cccccc,;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.grid-container div {
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container div {
+    font-size: 20px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 400px;
+}
+
+.ul {
+    list-style-type: none;
+    text-align: center;
+    
+}
+li {
+    display: inline;
+    
+    background-color: rgba(255, 0, 0, 0.007);
+    float:left; 
+    border: 5px solid black;
+    border-radius: 23px;
+}
+
+.Menu {
+    color:aliceblue;   
+    padding: 0 4px;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+
+    }
+    
+    .Menu:hover {
+        background-color: rgb(255, 0, 0);
+        color: rgb(0, 0, 0);
+        
+    
+    }
+
+    
+
+header {
+    grid-area: cabezera;
+    background-color: rgba(183, 162, 162, 0);
+    border: solid rgba(0, 0, 0, 0) 10px;
+}
+
+h1 {
+    grid-area: titulo;
+    background-color: rgba(255, 0, 0, 0.882);
+    text-align: center;
+    text-decoration: none;
+    color:aliceblue;
+    font-style: italic;
+    border: solid black 10px;
+
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+    font-style:italic;
+}
+
+nav {
+    grid-area: navegacion;
+    background-color: rgba(255, 0, 0, 0.882);
+    overflow: scroll;
+}
+
+section { 
+    grid-area: seccion;
+    background-color: rgba(255, 0, 0, 0.882);
+    overflow: scroll;
+    align-items: center;
+    text-align: center;
+}
+aside { 
+    grid-area: barra;
+    background-color: rgba(255, 0, 0, 0.882);
+}
+
+footer {
+    grid-area: pie;
+    background-color:rgba(255, 0, 0, 0.882);
+}
+
+
+@media screen and (min-width: 200px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 255px 530px 350px 80px 50px 98px;
+        column-gap: 10px;
+        background-color: rgba(128, 128, 128, 0) ;
+        border: solid gray 10px;
+    }    
+    header {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+
+    }
+
+    h1 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+
+    }
+
+
+
+    section {
+        grid-row-start: 3;
+        grid-row-end: 4; 
+        grid-column-start: 1;
+        grid-column-end: 4;   
+
+    }
+
+    nav {
+        grid-row-start: 4;
+        grid-row-end: 5; 
+        grid-column-start: 1;
+        grid-column-end: 4;    
+
+    }
+
+    aside {
+        grid-row-start: 6;
+        grid-row-end: 7; 
+        grid-column-start: 1;
+        grid-column-end: 4;   
+    }
+
+    
+    footer {
+        grid-row-start: 7;
+        grid-row-end: 8; 
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+}
+
+@media screen and (min-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 100px 170px 310px 250px ;
+        column-gap: 10px;
+        background-color: rgba(128, 128, 128, 0);
+        border: solid gray 10px;
+    }    
+    header {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+
+    }
+
+    h1 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+
+    }
+
+    aside { 
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        
+    }
+
+    section {
+        grid-row-start: 3;
+        grid-row-end: 5; 
+        grid-column-start: 1;
+        grid-column-end: 2;   
+
+    }
+
+    nav {
+        grid-row-start: 3;
+        grid-row-end: 4; 
+        grid-column-start: 2;
+        grid-column-end: 4;   
+    }
+
+    
+    footer {
+        grid-row-start: 6;
+        grid-row-end: 7; 
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+    .grid-container {
+        grid-template-columns: 200px repeat(3, 1fr);
+        grid-template-rows: 100px 120px 500px 100px 50px;
+        background-color: rgba(128, 128, 128, 0);
+        border: solid gray 10px;
+        
+    }
+    header {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 5;
+
+    }
+
+    h1 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    nav { 
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        
+    }
+
+    section {
+        grid-row-start: 3;
+        grid-row-end: 4; 
+        grid-column-start: 2;
+        grid-column-end: 5;   
+
+    }
+
+    aside {
+        grid-row-start: 4;
+        grid-row-end: 5; 
+        grid-column-start: 1;
+        grid-column-end: 5;   
+    }
+
+    
+    footer {
+        grid-row-start: 5;
+        grid-row-end: 6; 
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+}
