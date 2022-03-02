@@ -33,6 +33,7 @@ body {
 .ul {
     list-style-type: none;
     text-align: center;
+    align-items: center;
     
 }
 li {
@@ -42,6 +43,9 @@ li {
     float:left; 
     border: 5px solid black;
     border-radius: 23px;
+    text-align: center;
+    align-items: center;
+
 }
 
 .Menu {
@@ -51,14 +55,18 @@ li {
     font-weight: bolder;
     border-radius: 10px;
     background-color: rgb(255, 0, 0);
+    text-align: center;
+    padding-top: 0%;
+    align-items: center;
 
     }
     
     .Menu:hover {
         background-color: rgb(255, 0, 0);
         color: rgb(0, 0, 0);
-        
-    
+        height: 30px;
+        width: 80px;
+        background-image:linear-gradient(to left, red, white) ;
     }
 
     
@@ -109,6 +117,25 @@ footer {
     background-color:rgba(255, 0, 0, 0.882);
 }
 
+ .transform1 {
+    transform: scaleY(1.2); 
+}
+
+div.transform1 {
+    width:80px;
+    height: 20px;
+    background-color: red;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+}
+
+.transform1:hover {
+    height: 30px;
+    width: 80px;
+    background-image:linear-gradient(to left, red, white) ;
+
+}
 
 @media screen and (min-width: 200px) {
     .grid-container {
