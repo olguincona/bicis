@@ -4,6 +4,7 @@
         <meta charset="utf-8-Compatible">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="../style.css">
         <title>Contacto</title>
     </head>
@@ -11,15 +12,38 @@
        <div class="grid-container">
            <!--Menu Principal-->
             <header>
-                <div>
-                    <ul class="ul">
-                        <li><a class="Menu transform1" href="../index.html">Inicio</a></li>
-                        <li><a class="Menu transform1" href="./productos.html">Productos</a></li>
-                        <li><a class="Menu transform1" href="./galeria.html">Galeria</a></li>
-                        <li><a class="Menu transform1" href="./nosotros.html">Nosotros</a></li>
-                        <li><a class="Menu transform1" href="./contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"><img src="../images/bmx.jpg" width="50px"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" href="../index.html" aria-current="page" href="#">Inicio</a>
+                          </li>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../pages/productos.html">Productos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success bg-danger text-white"  type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
             </header>
         
             <h1>
@@ -29,20 +53,20 @@
             <section>
                 <!--Formulario-->
         <form>
-            <label for="fnombre">Nombre</label>
+            <label for="fnombre" class="form-label">Nombre</label>
             <input type="text" id="fnombre" name="fnombre" placeholder="Nombre" required>
             <br>
-            <label for="fapellido">Apellido</label>
+            <label for="fapellido" class="form-label">Apellido</label>
             <input type="text" id="fapellido" name="fapellido" placeholder="Apellido" required>
             <br>
-            <label for="fmail">E-mail</label>
+            <label for="fmail" class="form-label">E-mail</label>
             <input type="email" id="fmail" name="fmail" placeholder="Ejemplo@bicicletas.com" required>
             <br>
             <h6>Tipo de Servicio</h6>
             <input type="radio" id="fventa" name="fventa" required>
-            <label for="fventa">Venta</label>
+            <label for="fventa" class="form-label">Venta</label>
             <input type="radio" id="fmantencion" name="fventa" required>
-            <label for="fmantencion">Mantencion</label>
+            <label for="fmantencion" class="form-label">Mantencion</label>
             <br>
             <label>Sexo</label>
             <select name="Sexo">
@@ -76,5 +100,6 @@
                 <h4>Copyright 2022</h4>
             </footer>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>

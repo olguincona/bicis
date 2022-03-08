@@ -2,9 +2,10 @@ body {
     margin: 0px;
     background-image:url("./images/pista.jpg");
     background-color: #cccccc,;
+    
 }
 
-.grid-container {
+/*.grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
@@ -103,7 +104,7 @@ nav {
 section { 
     grid-area: seccion;
     background-color: rgba(255, 0, 0, 0.882);
-    overflow: scroll;
+    
     align-items: center;
     text-align: center;
 }
@@ -306,4 +307,4 @@ div.transform1 {
         grid-column-end: 5;
     }
     
-}
+} */
