@@ -14,116 +14,147 @@
         <title>Productos</title>
     </head>
     <body>
-       <div class="grid-container">
            <!--Menu Principal-->
-            <header>
-                <nav class="navbar navbar-expand-lg navbar-light bg-danger">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#"><img src="../images/bmx.jpg" width="50px"></a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" href="../index.html" aria-current="page" href="#">Inicio</a>
-                          </li>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="../pages/productos.html">Productos</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="../pages/galeria.html">Galeria</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                          </li>
-                        </ul>
-                        <form class="d-flex">
-                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success bg-danger text-white"  type="submit">Search</button>
-                        </form>
-                      </div>
-                    </div>
-                  </nav>
-            </header>
+           <header>
+            <nav class="navbar navbar-expand-lg navbar-light nav">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="/images/bmx.jpg" width="50px"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active amenu" href="/index.html" aria-current="page">Inicio</a>
+                      </li>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link amenu" href="/pages/productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link amenu" href="/pages/galeria.html">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link amenu" href="/pages/nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link amenu" href="/pages/contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-success botonb"  type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>           
+        </header>
         
-            <h1>
+            <h1 class="h1 container">
                 Productos y Accesorios
             </h1>
 
             <section>
                 <!--Tabla-->
              <div class="container">
-                 <div class="col-md-12">
-                     <table class="table table-striped table-hover">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Categoria</th>
-                        <th scope="col">Producto</th>
-                        <th scope="col">Stock</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Cuadros y Horquillas</td>
-                        <td>Cuadro Trek</td>
-                        <td>7</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Asientos</td>
-                        <td>Asiento Trek</td>
-                        <td>3</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td >Frenos</td>
-                        <td>Frenos Shimano</td>
-                        <td>5</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                 <div class="row">
+                   <div class="tabla">
+                    <table class="table table-striped table-hover">
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">Categoria</th>
+                          <th scope="col">Producto</th>
+                          <th scope="col">Stock</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Cuadros y Horquillas</td>
+                          <td>Cuadro Trek</td>
+                          <td>7</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Asientos</td>
+                          <td>Asiento Trek</td>
+                          <td>3</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td >Frenos</td>
+                          <td>Frenos Shimano</td>
+                          <td>5</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                   </div>
                  </div>
              </div>
                 
+          <div class="container">
+            <div class="row">
+              <div class="borde">
+                <h2 class="h1">Cuadros y Horquillas</h2>
+                <img src="../images/cuadro y horquilla.jpg" class="rounded mx-auto d-block" alt="Cuadros y Horquillas" width="400" height="400">
+                <p class="h1">ddsi dsnfdsiafids</p>
+              </div>
+            </div>
 
-                <h2 class="h2">Cuadros y Horquillas</h2>
-                <img src="../images/cuadro y horquilla.jpg" class="img-fluid" alt="Cuadros y Horquillas" width="600" height="600">
-                <p class="p">df asfijdsi dsnfdsiafids</p>
+            <div class="container">
+              <div class="row">
+                <div class="borde">
+                  <h2 class="h1">Manillares</h2>
+                  <img src="../images/manillar.jpg" class="rounded mx-auto d-block" alt="Manillares" width="400" height="400">
+                  <p class="h1">df asfijdsi dsnfdsiafids</p>
+                </div>
+              </div>
+            </div>
             
+            <div class="container">
+              <div class="row">
+                <div class="borde">
+                  <h2 class="h1">Asientos</h2>
+                  <img src="../images/sillin.jpg" class="rounded mx-auto d-block" alt="Asientos" width="400" height="400">
+                  <p class="h1">df asfijdsi dsnfdsiafids</p>
+            
+                </div>
+              </div>
+            </div>
+            
+            <div class="container">
+              <div class="row">
+                <div class="borde">
+                  <h2 class="h1">Frenos</h2>
+                  <img src="../images/frenos1.jpg" class="rounded mx-auto d-block" alt="Frenos" width="400" height="400">
+                  <p class="h1">df asfijdsi dsnfdsiafids</p>
+                </div>
+              </div>
+            </div>
 
             
-                <h2 class="h2">Manillares</h2>
-                <img src="../images/manillar.jpg" class="img-fluid" alt="Manillares" width="600" height="600">
-                <p class="p">df asfijdsi dsnfdsiafids</p>
+                
             
 
           
-                <h2 class="h2">Asientos</h2>
-                <img src="../images/sillin.jpg" class="img-fluid" alt="Asientos" width="600" height="600">
-                <p class="p">df asfijdsi dsnfdsiafids</p>
-            
+                
 
            
-                <h2 class="h2">Frenos</h2>
-                <img src="../images/frenos1.jpg" class="img-fluid" alt="Frenos" width="600" height="600">
-                <p class="p">df asfijdsi dsnfdsiafids</p>
-            </section>
+                
+          </div>
+                
 
-            <nav>
-                <article>
-                    <h2 class="h2">Haz tu mantencion</h2>
-                    <p class="p">Video a continuacion</p>
-                    <iframe width="100%" height="71.3%" src="https://www.youtube.com/embed/yI3zhRtpFJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe width="100%" height="71.3%" src="https://www.youtube.com/embed/Pl0ouKtlaXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </article>
-            </nav>
+          <div class="container">
+            <div>
+                <div class="divborde">
+                    <h1 class="h1">Haz tu mantencion</h1>
+                    <h2>Video a continuacion</h2>
+                    <iframe width="100%"  src="https://www.youtube.com/embed/yI3zhRtpFJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%"  src="https://www.youtube.com/embed/Pl0ouKtlaXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div> 
+        </div>
 
             <aside>
                 ASIDE

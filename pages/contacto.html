@@ -11,45 +11,49 @@
     <body>
        <div class="grid-container">
            <!--Menu Principal-->
-            <header>
-                <nav class="navbar navbar-expand-lg navbar-light bg-danger">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#"><img src="../images/bmx.jpg" width="50px"></a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" href="../index.html" aria-current="page" href="#">Inicio</a>
-                          </li>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="../pages/productos.html">Productos</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="../pages/galeria.html">Galeria</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                          </li>
-                        </ul>
-                        <form class="d-flex">
-                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success bg-danger text-white"  type="submit">Search</button>
-                        </form>
-                      </div>
-                    </div>
-                  </nav>
-            </header>
-        
-            <h1>
+           <header>
+            <nav class="navbar navbar-expand-lg navbar-light nav">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="/images/bmx.jpg" width="50px"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active amenu" href="/index.html" aria-current="page">Inicio</a>
+                      </li>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link amenu" href="/pages/productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link amenu" href="/pages/galeria.html">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link amenu" href="/pages/nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link amenu" href="/pages/contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-success botonb"  type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>           
+        </header>
+
+        <div class="container">
+          <h1 class="h1">
                 Contactate con nosotros!
             </h1>
+        </div>
 
+        <div class="container">
+          <div class="tabla">
             <section>
                 <!--Formulario-->
         <form>
@@ -81,24 +85,31 @@
             
         </form>
             </section>
+          </div>
+        </div>
 
-            <nav>
-                <article>
-                    <h2 class="h2">Haz tu mantencion</h2>
-                    <p class="p">Video a continuacion</p>
-                    <iframe width="100%" height="71.3%" src="https://www.youtube.com/embed/yI3zhRtpFJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe width="100%" height="71.3%" src="https://www.youtube.com/embed/Pl0ouKtlaXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </article>
-            </nav>
+        <div class="container">
+          <div>
+              <div class="divborde">
+                  <h1 class="h1">Haz tu mantencion</h1>
+                  <h2>Video a continuacion</h2>
+                  <iframe width="100%"  src="https://www.youtube.com/embed/yI3zhRtpFJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="100%"  src="https://www.youtube.com/embed/Pl0ouKtlaXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div> 
+      </div>
 
-            <aside>
-                ASIDE
-            </aside>
-  
-            <footer>
-                <h4>Autor: Felipe Olguin</h4>
-                <h4>Copyright 2022</h4>
-            </footer>
+      <div class="container">
+        <aside>
+            ASIDE
+        </aside>
+    </div>
+    <div class="container">
+        <footer>
+            <h4>Autor: Felipe Olguin</h4>
+            <h4>Copyright 2022</h4>
+        </footer>
+    </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
