@@ -8,13 +8,13 @@
         <link rel="stylesheet" href="/css/style.css">
         <title>Galeria</title>
     </head>
-    <body>
-       <div class="grid-container">
+    <body class="bg-succes">
+       
            <!--Menu Principal-->
            <header>
-            <nav class="navbar navbar-expand-lg navbar-light nav">
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light nav">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="../images/bmx.jpg" width="50px"></a>
+                  <a class="navbar-brand" href="#"><img src="../images//icono 2.png" width="50px"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -46,24 +46,22 @@
               </nav>           
         </header>
         <div class="container">
-          <h1 class="h1">Galeria de Fotos</h1>
+          <div class="row justify-content-evenly">
+            <h1 class="h1">Galeria de Fotos</h1>
+          </div>
         </div>
             
 
             <!--Fotos-->
             <section>
               <div class="container">
-                <div class="row">
-                  <div class="borde">
+                <div class="row justify-content-evenly">
+                  <div class="divborde col-md-6">
                     <h2 class="h1">Bicicleta de Ruta</h2>
                     <img src="../images/Ruta.jpg" class="rounded mx-auto d-block" alt="Bicicleta de Ruta" width="400" height="400">
                     <p class="h1">ddsi dsnfdsiafids</p>
                   </div>
-                </div>
-              
-              <div class="container">
-                <div class="row">
-                  <div class="borde">
+                  <div class="divborde col-md-6">
                     <h2 class="h1">Bicicleta de Montaña</h2>
                     <img src="../images/mtb.jpg" class="rounded mx-auto d-block" alt="Bicicleta de Montaña" width="400" height="400">
                     <p class="h1">ddsi dsnfdsiafids</p>
@@ -71,17 +69,22 @@
                 </div>
 
               <div class="container">
-                <div class="row">
-                  <div class="borde">
+                <div class="row justify-content-evenly">
+                  <div class="divborde col-md-6">
                     <h2 class="h1">Bicicleta de Freestyle</h2>
                     <img src="../images/bmx.jpg" class="rounded mx-auto d-block" alt="Bicicleta de Freestyle" width="400" height="400">
+                    <p class="h1">ddsi dsnfdsiafids</p>
+                  </div>
+                  <div class="divborde col-md-6">
+                    <h2 class="h1">Bicicleta de Trial</h2>
+                    <img src="../images/trial2.jpg" class="rounded mx-auto d-block" alt="Bicicleta de Trial" width="400" height="400">
                     <p class="h1">ddsi dsnfdsiafids</p>
                   </div>
                 </div>
             </section>
 
             <div class="container">
-              <div>
+              <div class="row justify-content-evenly">
                   <div class="divborde">
                       <h1 class="h1">Haz tu mantencion</h1>
                       <h2>Video a continuacion</h2>
@@ -90,18 +93,16 @@
                   </div>
               </div> 
           </div>
-
-          <div class="container">
-            <aside>
-                ASIDE
+            <aside class="container">
+              <div class="row justify-content-evenly">
+                <h1 class="h1">ASIDE</h1>
+              </div> 
             </aside>
-        </div>
-        <div class="container">
-            <footer>
+        <div class="container-fluid">
+            <footer class="divborde row justify-content-evenly">
                 <h4>Autor: Felipe Olguin</h4>
                 <h4>Copyright 2022</h4>
             </footer>
-        </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>

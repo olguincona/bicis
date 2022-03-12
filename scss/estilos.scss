@@ -1,5 +1,10 @@
 ul {
-    &:hover {
-        background-color: gray;
+    li{
+        a {
+            &:hover {
+                background-color: gray;
+                    }
+        }
+    
     }
 }

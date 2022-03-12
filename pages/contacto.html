@@ -8,13 +8,12 @@
         <link rel="stylesheet" href="/css/style.css">
         <title>Contacto</title>
     </head>
-    <body>
-       <div class="grid-container">
+    <body class="bg-succes">
            <!--Menu Principal-->
            <header>
-            <nav class="navbar navbar-expand-lg navbar-light nav">
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light nav">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="../images/bmx.jpg" width="50px"></a>
+                  <a class="navbar-brand" href="#"><img src="../images/icono 2.png" width="50px"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -47,16 +46,21 @@
         </header>
 
         <div class="container">
-          <h1 class="h1">
+          <div class="row justify-content-evenly">
+            <h1 class="h1">
                 Contactate con nosotros!
             </h1>
+          </div>
         </div>
 
         <div class="container">
-          <div class="tabla">
+          <div class="row justify-content-evenly">
+            <div class="col-md-6">
+              <div class="tabla">
             <section>
                 <!--Formulario-->
-        <form>
+        <form class="divborde">
+          <h1 class="h1">Llena tus datos</h1>
             <label for="fnombre" class="form-label">Nombre</label>
             <input type="text" id="fnombre" name="fnombre" placeholder="Nombre" required>
             <br>
@@ -87,30 +91,39 @@
             </section>
           </div>
         </div>
-
-        <div class="container">
-          <div>
+           <div class="col-md-6">
               <div class="divborde">
                   <h1 class="h1">Haz tu mantencion</h1>
                   <h2>Video a continuacion</h2>
                   <iframe width="100%"  src="https://www.youtube.com/embed/yI3zhRtpFJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   <iframe width="100%"  src="https://www.youtube.com/embed/Pl0ouKtlaXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
+           </div>
+        </div>
+     </div>
+
+        <div class="container">
+          <div>
+              
           </div> 
       </div>
 
       <div class="container">
-        <aside>
-            ASIDE
-        </aside>
-    </div>
-    <div class="container">
-        <footer>
-            <h4>Autor: Felipe Olguin</h4>
-            <h4>Copyright 2022</h4>
-        </footer>
-    </div>
-        </div>
+        <div class="row justify-content-evenly">
+                    <aside class="h1">
+                        ASIDE
+                    </aside>       
+            </div>
+      </div>
+              
+  <div class="container-fluid">
+      <div class="row justify-content-evenly">
+              <footer class="nav">
+                  <h4>Autor: Felipe Olguin</h4>
+                  <h4>Copyright 2022</h4>
+              </footer>
+      </div>
+  </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
