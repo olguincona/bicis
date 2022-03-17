@@ -1,9 +1,39 @@
+.btn--facebook {
+  background-color: #3a5795; }
+
+.btn--twitter {
+  background-color: #55acee; }
+
+.btn--Ig {
+  background-color: #ee5293; }
+
+.boton, .boton--aceptar, .boton--cancelar {
+  width: 200px;
+  height: 50px;
+  background-color: #F9F8EB;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: solid black 2px; }
+
+.boton--aceptar {
+  background-color: #346751;
+  color: yellow; }
+
+.boton--cancelar {
+  background-color: red;
+  color: yellow; }
+
+.box {
+  height: 50px;
+  width: 50px; }
+
 .fondoweb {
   background-image: url(../images/metal4.jpg); }
 
 /* h1 */
 .h1 {
-  background-color: #ff4500;
+  background-color: #929592;
   text-align: left;
   text-decoration: none;
   color: aliceblue;
@@ -15,7 +45,6 @@
 
 /* h2 */
 .h2 {
-  text-align: center;
   color: aliceblue;
   font-style: italic;
   text-shadow: 0 0 3px black, 0 0 5px black;

@@ -3,12 +3,55 @@ $segundo: #346751;
 $tercero: #EF7E56;
 $cuarto: #ff4500;
 $anchofoto: 400px;
+
+$redes:(
+    facebook: #3a5795,
+    twitter: #55acee,
+    Ig: #ee5293,
+);
+@each $red, $color in $redes {
+    .btn--#{$red}{
+        background-color: $color;
+    }
+}
+$estiloso: (
+    color: #929592,
+    cdsadas : center,
+    tFuente:35px,
+    1rem:1rem, 
+);
+.boton {
+    width: 200px;
+    height: 50px;
+    background-color: $primero;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    border: solid black 2px;
+}
+.boton--aceptar {
+    @extend .boton;
+    background-color: #346751;
+    color: yellow;
+}
+.boton--cancelar {
+    @extend .boton;
+    background-color: red;
+    color: yellow;
+}
+@mixin tamaño ($width, $height) {
+    height: $height;
+    width: $width;
+}
+.box {
+@include tamaño(500px, 50px)
+}
 .fondoweb {
     background-image: url(../images/metal4.jpg);
 }
 /* h1 */
 .h1 {
-    background-color: $cuarto;
+    background-color: map-get($estiloso, color);
     text-align:left;
     text-decoration: none;
     color:aliceblue;
@@ -20,7 +63,7 @@ $anchofoto: 400px;
 }
 /* h2 */
 .h2 {
-    text-align: center;
+    text-align: map-get($estiloso, centro);
     color: aliceblue;
     font-style:italic;
     text-shadow:  0 0 3px black, 0 0 5px black ;
