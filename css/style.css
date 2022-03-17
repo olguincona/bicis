@@ -2,7 +2,7 @@ body {
     background-color: #FD5F00,;
 }
 .bg-succes {
-    background-color: #ECDBBA;
+    background-image: url(../images/metal4.jpg);
   }
 /*.grid-container {
     display: grid;
@@ -76,8 +76,19 @@ header {
     background-color: rgba(183, 162, 162, 0);
     border: solid rgba(0, 0, 0, 0) 10px;
 }*/
-
-.h1 {
+/* -------- */
+/* .h1 {
+    background-color: orangered;
+    text-align:left;
+    text-decoration: none;
+    color:aliceblue;
+    font-style: italic;
+    border: solid black 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-weight: bolder;
+} */
+/* .h3 {
     background-color: #346751;
     text-align:center;
     text-decoration: none;
@@ -86,39 +97,39 @@ header {
     border: solid black 10px;
     border-radius: 10px;
     margin: 10px;
-}
-.tabla {
+} */
+/* .tabla {
     border: solid black 10px;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 0%;
     background-color: aliceblue;
-}
-th {
+} */
+/* th {
     border: solid black 5px;
-}
-.borde {
+} */
+/* .borde {
     border: solid black 5px;
-}
+} */
 
-.imagen {
+/* .imagen {
     align-content: center;
     align-items: center;
     text-align: center;
     border: solid black 5px;
     border-radius: 5px;
-}
-tr {
+} */
+/* tr {
     border: solid black 4px;
-}
+} */
 
-.a2 {
+/* .a2 {
     text-decoration: none;
     color: aliceblue;
-}
-.nav{
-    background-color: #346751 ;
+} */
+/* .nav{
+    background-color: black ;
     border: solid black 5px;
     border-radius: 0px;
     color: #F9F8EB;
@@ -126,16 +137,18 @@ tr {
     text-overflow:ellipsis;
     margin: 0%;
 
-}
-.amenu {
+} */
+/* .amenu {
     border: solid black 5px;
     color: aliceblue;
     text-decoration: white;
+    font-weight: bolder;
     border-radius: 10px;
     text-decoration-color: #F9F8EB;
-    background-color: #EF7E56;
-}
-h2 {
+    background-color: orangered;
+    font-weight: bolder;
+} */
+/* .h2 {
     text-align: center;
     color: aliceblue;
     font-style:italic;
@@ -143,30 +156,40 @@ h2 {
     background-color:#ECDBBA ;
     border: solid black 10px;
     border-radius: 10px;
-}
-.divborde {
+} */
+/* h4 {
+    text-align: center;
+    color: aliceblue;
+    font-style:italic;
+    text-shadow:  0 0 3px black, 0 0 5px black ;
+    background-color:#ECDBBA ;
+    border: solid black 10px;
+    border-radius: 10px;
+} */
+/* .divborde {
     border:black 10px;
     border-radius: 10px;
     background-color:#EF7E56 ;
     padding: 5px;
     border-style:groove;    
-}
-.botonb {
+} */
+/* .botonb {
     border: solid black 5px;
     color: black;
     border-radius: 10px;
     background-color:#EF7E56 ;
-}
+} */
 ul li a:hover {
-    background-color: #ECDBBA; }
+    background-color: black; }
 
 div h1 a:hover {
-    color: #ECDBBA;
+    color: #ECDBBA
+;
 }
-img {
+/* img {
     margin: 0;
     padding: 0;
-}
+} */
 /*
 h2 {
     text-align: center;

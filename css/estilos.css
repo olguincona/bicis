@@ -1,2 +1,126 @@
+.fondoweb {
+  background-image: url(../images/metal4.jpg); }
+
+/* h1 */
+.h1 {
+  background-color: #ff4500;
+  text-align: left;
+  text-decoration: none;
+  color: aliceblue;
+  font-style: italic;
+  border: solid black 10px;
+  border-radius: 10px;
+  margin: 10px;
+  font-weight: bolder; }
+
+/* h2 */
+.h2 {
+  text-align: center;
+  color: aliceblue;
+  font-style: italic;
+  text-shadow: 0 0 3px black, 0 0 5px black;
+  background-color: #F9F8EB;
+  border: solid black 10px;
+  border-radius: 10px; }
+
+/* h3 */
+.h3 {
+  background-color: #346751;
+  text-align: center;
+  text-decoration: none;
+  color: aliceblue;
+  font-style: italic;
+  border: solid black 10px;
+  border-radius: 10px;
+  margin: 10px; }
+
+/* h4 */
+h4 {
+  text-align: center;
+  color: aliceblue;
+  font-style: italic;
+  text-shadow: 0 0 3px black, 0 0 5px black;
+  background-color: #F9F8EB;
+  border: solid black 10px;
+  border-radius: 10px; }
+
+.tabla {
+  border: solid black 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0%;
+  background-color: aliceblue; }
+
+th {
+  border: solid black 5px; }
+
+tr {
+  border: solid black 4px; }
+
+.amenu {
+  border: solid black 5px;
+  color: aliceblue;
+  text-decoration: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  text-decoration-color: #F9F8EB;
+  background-color: #ff4500;
+  font-weight: bolder; }
+
+.nav1 {
+  background-color: black;
+  border: solid black 5px;
+  border-radius: 0px;
+  color: #F9F8EB;
+  text-decoration: white;
+  text-overflow: ellipsis;
+  margin: 0%; }
+
+.nav2 {
+  background-color: black;
+  border: solid black 5px;
+  border-radius: 0px;
+  color: #F9F8EB;
+  text-decoration: white;
+  text-overflow: ellipsis;
+  margin: 0%;
+  font-size: small;
+  height: 20px; }
+
+img {
+  margin: 0;
+  padding: 0; }
+
+.imagen {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  border: solid black 5px;
+  border-radius: 5px; }
+
+.borde {
+  border: solid black 5px; }
+
+.divborde {
+  border: black 10px;
+  border-radius: 10px;
+  background-color: #ff4500;
+  padding: 5px;
+  border-style: groove; }
+
+.a2 {
+  text-decoration: none;
+  color: aliceblue; }
+
+.botonb {
+  border: solid black 5px;
+  color: black;
+  border-radius: 10px;
+  background-color: #ff4500; }
+
 ul li a:hover {
   background-color: gray; }
+
+div h1 a:hover {
+  color: #ECDBBA; }
