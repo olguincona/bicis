@@ -26,42 +26,44 @@
 
 .box {
   height: 50px;
-  width: 50px; }
+  width: 70px; }
 
 .fondoweb {
-  background-image: url(../images/metal4.jpg); }
+  background-color: #808080; }
 
 /* h1 */
 .h1 {
-  background-color: #929592;
+  background-color: #FF8C00;
   text-align: left;
-  text-decoration: none;
+  text-decoration: dashed;
   color: aliceblue;
   font-style: italic;
-  border: solid black 10px;
-  border-radius: 10px;
+  border: solid black 2px;
+  border-radius: 2px;
   margin: 10px;
-  font-weight: bolder; }
+  font-weight: bolder;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50PX; }
 
 /* h2 */
 .h2 {
   color: aliceblue;
   font-style: italic;
   text-shadow: 0 0 3px black, 0 0 5px black;
-  background-color: #F9F8EB;
-  border: solid black 10px;
-  border-radius: 10px; }
+  background-color: #FF8C00;
+  border-radius: 10px;
+  font-family: 'Bebas Neue', cursive; }
 
 /* h3 */
 .h3 {
-  background-color: #346751;
+  background-color: #808080;
   text-align: center;
   text-decoration: none;
   color: aliceblue;
   font-style: italic;
-  border: solid black 10px;
   border-radius: 10px;
-  margin: 10px; }
+  margin: 10px;
+  font-family: 'Bebas Neue', cursive; }
 
 /* h4 */
 h4 {
@@ -94,7 +96,7 @@ tr {
   font-weight: bolder;
   border-radius: 10px;
   text-decoration-color: #F9F8EB;
-  background-color: #ff4500;
+  background-color: #FF8C00;
   font-weight: bolder; }
 
 .nav1 {
@@ -113,9 +115,7 @@ tr {
   color: #F9F8EB;
   text-decoration: white;
   text-overflow: ellipsis;
-  margin: 0%;
-  font-size: small;
-  height: 20px; }
+  margin: 0%; }
 
 img {
   margin: 0;
@@ -125,7 +125,6 @@ img {
   align-content: center;
   align-items: center;
   text-align: center;
-  border: solid black 5px;
   border-radius: 5px; }
 
 .borde {
@@ -134,7 +133,7 @@ img {
 .divborde {
   border: black 10px;
   border-radius: 10px;
-  background-color: #ff4500;
+  background-color: #FF8C00;
   padding: 5px;
   border-style: groove; }
 
@@ -146,10 +145,22 @@ img {
   border: solid black 5px;
   color: black;
   border-radius: 10px;
-  background-color: #ff4500; }
+  background-color: #FF8C00; }
+
+.iconos {
+  height: 20px;
+  width: 20px; }
+
+aside {
+  background-color: #000000; }
+
+.paside {
+  background-color: #808080;
+  color: #F9F8EB; }
 
 ul li a:hover {
-  background-color: gray; }
+  background-color: #FF8C00;
+  border-radius: 2px; }
 
 div h1 a:hover {
   color: #ECDBBA; }

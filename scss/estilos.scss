@@ -1,7 +1,7 @@
 $primero: #F9F8EB;
-$segundo: #346751;
-$tercero: #EF7E56;
-$cuarto: #ff4500;
+$segundo: #808080;
+$tercero: #000000;
+$cuarto: #FF8C00;
 $anchofoto: 400px;
 
 $redes:(
@@ -15,7 +15,7 @@ $redes:(
     }
 }
 $estiloso: (
-    color: #929592,
+    color: #FF8C00,
     cdsadas : center,
     tFuente:35px,
     1rem:1rem, 
@@ -44,22 +44,25 @@ $estiloso: (
     width: $width;
 }
 .box {
-@include tamaño(500px, 50px)
+height: 50px;
+width: 70px;
 }
 .fondoweb {
-    background-image: url(../images/metal4.jpg);
+    background-color: #808080;
 }
 /* h1 */
 .h1 {
     background-color: map-get($estiloso, color);
     text-align:left;
-    text-decoration: none;
+    text-decoration:dashed;
     color:aliceblue;
     font-style: italic;
-    border: solid black 10px;
-    border-radius: 10px;
+    border: solid black 2px;
+    border-radius: 2px;
     margin: 10px;
     font-weight: bolder;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50PX;
 }
 /* h2 */
 .h2 {
@@ -67,9 +70,9 @@ $estiloso: (
     color: aliceblue;
     font-style:italic;
     text-shadow:  0 0 3px black, 0 0 5px black ;
-    background-color: $primero ;
-    border: solid black 10px;
+    background-color: $cuarto;
     border-radius: 10px;
+    font-family: 'Bebas Neue', cursive;
 }
 /* h3 */
 .h3 {
@@ -78,9 +81,9 @@ $estiloso: (
     text-decoration: none;
     color:aliceblue;
     font-style: italic;
-    border: solid black 10px;
     border-radius: 10px;
     margin: 10px;
+    font-family: 'Bebas Neue', cursive;
 }
 /* h4 */
 h4 {
@@ -133,8 +136,7 @@ tr {
     text-decoration: white;
     text-overflow:ellipsis;
     margin: 0%;
-    font-size: small;
-    height: 20px;
+
 }
 img {
     margin: 0;
@@ -144,7 +146,6 @@ img {
     align-content: center;
     align-items: center;
     text-align: center;
-    border: solid black 5px;
     border-radius: 5px;
 }
 .borde {
@@ -167,11 +168,23 @@ img {
     border-radius: 10px;
     background-color: $cuarto ;
 }
+.iconos {
+    height: 20px;
+    width: 20px;
+}
+aside {
+    background-color: $tercero;
+}
+.paside {
+    background-color: $segundo;
+    color: $primero;
+}
 ul {
     li{
         a {
             &:hover {
-                background-color: gray;
+                background-color: $cuarto;
+                border-radius: 2px;
                     }
         }
     
